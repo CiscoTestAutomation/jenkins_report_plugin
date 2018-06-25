@@ -12,7 +12,7 @@ as well as Jenkins Free Style project(for TCL based scripts).
 - [Quick Start](guide/quick_start.md)
 - [XML Spec](guide/spec.md)
 
-## Related Plugins
+## Related pyATS Plugins
 - [pyATS Jenkins Project Plugin](https://github.com/CiscoTestAutomation/jenkins_project_plugin)
 - [S3 Executor Plugin](https://github.com/CiscoTestAutomation/jenkins_executor_plugin)
 
