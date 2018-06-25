@@ -22,4 +22,7 @@ as well as Jenkins Free Style project(for TCL based scripts).
 * Option to upload the results to Cisco S3 and/or Cisco Trade
 * Pointer to direct view from S3 Dashboard
 
+## Workflow
 
+For the complete workflow of how this plugin can be used for, refer to:
+https://github.com/CiscoTestAutomation/jenkins_project_plugin/blob/master/README.md#workflow-diagram
