@@ -19,7 +19,7 @@ as well as Jenkins Free Style project(for TCL based scripts).
 ## Feature Highlights
 * Extract ResultsDetails.xml results file from a specific archive location(Free Style Project) or from the Jenkins _workspace_ (pyATS Project)
 * Provide Test suite, and testcase result details with Trend graphs
-* Option to upload the results to Cisco S3 and/or Cisco Trade
+* Upload the results to Cisco S3
 * Pointer to direct view from S3 Dashboard
 
 ## Workflow
