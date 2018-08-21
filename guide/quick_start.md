@@ -35,6 +35,7 @@ S3 specific parameters are prefixed with *s3_* such as:
 * **s3_auth_token**: s3 automation token (mandatory parameter)
 * **s3_branch**: indicating the image branch for the execution (optional parameter)
 * **s3_component**: indicating the feature component the sanity job covers (optional parameter)
+* **s3_group**: indicating the group for the execution (optional parameter, but needed when S3 *Request ID* is invalid)
 
 ![](assets/images/config6.png)
 
