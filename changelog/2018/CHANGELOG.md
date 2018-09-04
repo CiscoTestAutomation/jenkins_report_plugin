@@ -1,5 +1,5 @@
 # 2018
 
-* [June](JUNE.md))
+* [June](JUNE.md)
 
 * [August](AUG.md)
