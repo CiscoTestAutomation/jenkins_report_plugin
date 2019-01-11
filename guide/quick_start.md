@@ -36,9 +36,10 @@ S3 specific parameters are prefixed with *s3_* such as:
 * **s3_branch**: indicating the image branch for the execution (optional parameter)
 * **s3_component**: indicating the feature component the sanity job covers (optional parameter)
 * **s3_group**: indicating the group for the execution (optional parameter, but needed when S3 *Request ID* is invalid)
+* **s3_result_id**: indicating the result id the s3 will be using for uploading. Added for Autoeasy uploading support (optional parameter)
 
 ![](assets/images/config6.png)
-
+![](assets/images/config6_2.png)
 
 ## Execution and Output
 
