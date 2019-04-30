@@ -1,10 +1,9 @@
 # pyATS Report Plugin ![](guide/assets/images/r_jenkins.png)
 
 The pyATS Report Plugin is a Post Build plugin to display Cisco test automation 
-test results within Jenkins, with options to upload the archives to Cisco Self Serve Services(S3) portal. 
+test results within Jenkins, with options to upload the archives to Cisco Xpresso portal. 
 The Report Plugin is designed to work with pyATS Project (for pyATS based scripts), 
 as well as Jenkins Free Style project(for TCL based scripts).
-
 
 ## Table Of Content
 - [Feature Highlights](#feature-highlights)
@@ -12,15 +11,15 @@ as well as Jenkins Free Style project(for TCL based scripts).
 - [Quick Start](guide/quick_start.md)
 - [XML Spec](guide/spec.md)
 
-## Related pyATS Plugins
+## Related Plugins
 - [pyATS Jenkins Project Plugin](https://github.com/CiscoTestAutomation/jenkins_project_plugin)
-- [S3 Executor Plugin](https://github.com/CiscoTestAutomation/jenkins_executor_plugin)
+- [Xpresso Plugin](https://github.com/CiscoTestAutomation/jenkins_executor_plugin)
 
 ## Feature Highlights
-* Extract ResultsDetails.xml results file from a specific archive location(Free Style Project) or from the Jenkins _workspace_ (pyATS Project)
+* Extract ResultsDetails.xml results file from a specific archive location(Free Style Project) or from the Jenkins _workspace_ (PyATS Project)
 * Provide Test suite, and testcase result details with Trend graphs
-* Upload the results to Cisco S3
-* Pointer to direct view from S3 Dashboard
+* Upload the results to Cisco Xpresso
+* Pointer to direct view from Xpresso Dashboard
 
 ## Workflow
 

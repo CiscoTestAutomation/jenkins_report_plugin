@@ -18,28 +18,27 @@ Report Plugin will validate the specified path, in the event of the file not bei
 
 ## Step 3:
 
-To upload the archive to the S3 portal specify:
-* The S3 instance URL:
+To upload the archive to the Xpresso portal specify:
+* The Xpresso instance URL:
   * http://hostname
   * http://hostname:port
-* The S3 top level *Request ID*  
+* The Xpresso top level *Request ID*  
 
 ![](assets/images/config4.png)
 
 
-### S3 Parameter Configuration
+### Xpresso Parameter Configuration
 
-Uploading results to S3 requires REST API authentication. This is a mandatory parameter to be granted the uploading permission for Jenkins. The Authentication Token Parameters is specified through Jenkins native _Password Parameter_ component. Other optional S3 execution specific Parameters is specified through Jenkins native _String Parameter_ component.
+Uploading results to Xpresso requires REST API authentication. This is a mandatory parameter to be granted the uploading permission for Jenkins. The Authentication Token Parameters is specified through Jenkins native _Password Parameter_ component. Other optional Xpresso execution specific Parameters is specified through Jenkins native _String Parameter_ component.
 
-S3 specific parameters are prefixed with *s3_* such as:  
-* **s3_auth_token**: s3 automation token (mandatory parameter)
-* **s3_branch**: indicating the image branch for the execution (optional parameter)
-* **s3_component**: indicating the feature component the sanity job covers (optional parameter)
-* **s3_group**: indicating the group for the execution (optional parameter, but needed when S3 *Request ID* is invalid)
-* **s3_result_id**: indicating the result id the s3 will be using for uploading. Added for Autoeasy uploading support (optional parameter)
+Xpresso specific parameters are prefixed with *xpresso_* such as:  
+* **xpresso_auth_token**: Xpresso automation token (mandatory parameter)
+* **xpresso_branch**: indicating the image branch for the execution (optional parameter)
+* **xpresso_component**: indicating the feature component the sanity job covers (optional parameter)
+* **xpresso_group**: indicating the group for the execution (optional parameter, but needed when Xpresso *Request ID* is invalid)
+* **xpresso_result_id**: indicating the result id the Xpresso will be using for uploading. Added for Autoeasy uploading support (optional parameter)
 
 ![](assets/images/config6.png)
-![](assets/images/config6_2.png)
 
 ## Execution and Output
 
@@ -58,7 +57,7 @@ The general information of the job, the report provides the overall result (pass
 
 ![](assets/images/output2.png)
 
-### View results from Cisco Self Serve Services (S3) dashboard
-Click "Cisco S3 Result" will go directly to S3 instance the result is uploaded to.
+### View results from Cisco Xpresso dashboard
+Click "Cisco Xpresso Result" will go directly to the Xpresso instance the result is uploaded to.
 
 ![](assets/images/s3output1.png)  ![](assets/images/s3output2.png)

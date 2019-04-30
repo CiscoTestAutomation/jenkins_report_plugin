@@ -15,18 +15,18 @@ The XML specification to remotely configure the pyATS Report Plugin (through RES
 
 XML Tag Details:
 * zipFile: [Free Style Project] A Cisco test archive file that the user wishes to use for uploading.  
-* uploadS3: Option to upload the Cisco test results to the Cisco Self Serve Services (S3) portal.
-* s3Server: S3 instance URL is required.  
-* s3RequestId: The S3 request ID.
+* uploadS3: Option to upload the Cisco test results to the Cisco Xpresso portal.
+* s3Server: Xpresso instance URL is required.  
+* s3RequestId: The Xpresso request ID. 
 
-To upload to S3, authentication token is required:
+To upload to Xpresso, authentication token is required:
 
 ```
 <properties>
     <hudson.model.ParametersDefinitionProperty>
         <parameterDefinitions>
             <hudson.model.PasswordParameterDefinition>
-                <name>s3_auth_token</name>
+                <name>xpresso_auth_token</name>
                 <defaultValue>{token value}</defaultValue>
             </hudson.model.PasswordParameterDefinition>
         </parameterDefinitions>
